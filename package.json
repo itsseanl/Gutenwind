@@ -1,0 +1,25 @@
+{
+	"name": "gutenwind",
+	"version": "0.1.0",
+	"description": "Example block scaffolded with Create Block tool.",
+	"author": "The WordPress Contributors",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^30.12.0"
+	},
+	"dependencies": {
+		"@tailwindcss/postcss": "^4.0.11",
+		"postcss": "^8.5.3",
+		"tailwindcss": "^4.0.11"
+	}
+}

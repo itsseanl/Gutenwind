@@ -1,0 +1,8 @@
+@import "tailwindcss" source(none);
+@source "/edit.js";
+@source "./save.js";
+
+.wp-block-create-block-gutenwind {
+	color: #fff;
+	padding: 2px;
+}
