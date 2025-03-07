@@ -1,6 +1,6 @@
 # Gutenwind 
 
-Integrating TailwindCSS V4 with an example gutenberg block scaffolded with Create Block tool.
+Integrating TailwindCSS V4 with an example gutenberg block scaffolded with @wordpress/create-block tool.
 
 There is probably a better way to do this, but this is how I got it working after a day of pain and suffering.
 
